@@ -14,7 +14,7 @@ Game.Main.prototype = {
 
   create: function() {
     /**Enable Physics**/
-    game.physics.startSystem(Phaser.Physics.ARCADE);
+    game.physics.startSystem(Phaser.Physics.ARCADE);//Test
     game.physics.arcade.gravity.y = 1000;
 
     game.input.addPointer();
